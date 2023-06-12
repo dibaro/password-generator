@@ -1,1 +1,2 @@
-A simple project for generate password
+A simple project for generate password with python
+
