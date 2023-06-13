@@ -23,13 +23,13 @@ if password_length.isdigit() and how_hard.isnumeric() and int(how_hard)<=4:
     print("i am generating password ")
 
     for _ in range (3):
-        print("*")
+        print("*" , end=" " , flush=True)
         sleep(1)
         
 
     for i in range(int(password_length)):
         password+= choice(final_str)
-    print(f"here is your password = {password}")
+    print(f"\nhere is your password = {password}")
 
     
 else :
